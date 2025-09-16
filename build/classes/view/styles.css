@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+.titled-pane > .title{
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#title {
+    -fx-font-size: 25px;
+}
+
+#title_in {
+    -fx-underline: true;
+    -fx-font-size: 14px;
+}
+
+#label_in_out {
+    -fx-font-size: 13px;
+}
+
+.button {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 13px;
+}
+
+.text-field {
+    -fx-min-width: 70px;   
+    -fx-max-width: 70px;
+}
+
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .scroll-bar:vertical {
+    -fx-opacity: 0;
+    -fx-max-width: 0;
+}

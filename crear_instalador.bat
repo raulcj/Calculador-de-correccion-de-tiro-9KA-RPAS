@@ -1,0 +1,13 @@
+jpackage ^
+  --type exe ^
+  --name "Calculador de correccion de tiro 9KA-RPAS" ^
+  --vendor "RACTA 4" ^
+  --app-version 1.0.0 ^
+  --input dist ^
+  --main-jar Correccion9KARPAS.jar ^
+  --main-class main.Correccion9KARPASMain ^
+  --runtime-image runtime ^
+  --icon C:\Users\alumno\Documents\NetBeansProjects\Correccion9KARPAS\src\images\drone-ico.ico ^
+  --win-menu --win-shortcut --win-per-user-install --win-dir-chooser ^
+  --description "Calculo de la correccion de tiro en el sistema 9KA a partir de los datos de caida de proyectil obtenidos por RPAS" ^
+  --dest dist\installer
